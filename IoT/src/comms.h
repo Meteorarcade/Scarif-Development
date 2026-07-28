@@ -1,5 +1,3 @@
-
-
 /*
  * Communications logic for the development module, including MQTT setup, 
  * message handling, and periodic updates.
@@ -17,7 +15,7 @@ PubSubClient client(espClient);
 String topicBuffer;
 
 // MQTT Broker configuration (Default MQTT port is 1883)
-const char* mqttServer = "192.168.68.104";  
+const char* mqttServer = "192.168.1.116";  
 const int mqttPort = 1883;
 
 unsigned long lastUpdate = 0;
